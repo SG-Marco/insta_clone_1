@@ -1,509 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
-element.style {
-}
-body, button, input, textarea {
-    color: #262626;
-    color: rgba(var(--i1d,38,38,38),1);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-}
-html, body, #react-root {
-    height: 100%;
-}
-body {
-    background: #fff;
-    background: rgba(var(--d87,255,255,255),1);
-    overflow-y: scroll;
-}
-body {
-    line-height: 1;
-}
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-}
-body, button, input, textarea {
-    color: #262626;
-    color: rgba(var(--i1d,38,38,38),1);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-}
-html, body, #react-root {
-    height: 100%;
-}
-body {
-    background: #fff;
-    background: rgba(var(--d87,255,255,255),1);
-    overflow-y: scroll;
-}
-body {
-    line-height: 1;
-}
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-}
-사용자 에이전트 스타일시트
-body {
-    display: block;
-    margin: 8px;
-}
-style 특성 {
-    --desktop-nav-height: 60px;
-    --in-feed-story-item-padding: 14px;
-}
-.sDN5V {
-    --i1d: 38,38,38;
-    --edc: 199,199,199;
-    --f75: 38,38,38;
-    --fe0: 0,55,107;
-    --d87: 255,255,255;
-    --b3f: 250,250,250;
-    --bb2: 239,239,239;
-    --f23: 255,255,255;
-    --b38: 219,219,219;
-    --b6a: 219,219,219;
-    --ca6: 219,219,219;
-    --cdd: 38,38,38;
-    --e22: 199,199,199;
-    --e62: 245,251,255;
-    --b2f: 88,195,34;
-    --c8c: 168,168,168;
-    --ce3: 239,239,239;
-    --jd9: 0,0,0;
-    --j64: 54,54,54;
-    --a97: 243,243,243;
-    --d20: 38,38,38;
-}
-.ekjoN, .sDN5V {
-    --f52: 142,142,142;
-    --h1d: 255,255,255;
-    --de5: 255,255,255;
-    --d69: 0,149,246;
-    --b86: 88,195,34;
-    --i30: 237,73,86;
-    --d62: 255,255,255;
-    --e4f: 54,54,54;
-    --a72: 255,255,255;
-    --ie3: 142,142,142;
-    --c37: 237,73,86;
-    --f24: 0,149,246;
-    --daf: 255,1,105;
-    --f76: 28,209,79;
-    --jbb: 53,121,234;
-    --aab: 118,56,250;
-    --eca: 255,255,255;
-    --jb7: 0,0,0;
-    --fa7: 224,241,255;
-    --aa6: 38,38,38;
-    --ba8: 168,168,168;
-    --eac: 237,73,86;
-}
-html {
-    -webkit-text-size-adjust: 100%;
-}
-html {
-    -webkit-text-size-adjust: 100%;
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
-.z8cbW {
-    margin-left: 14px;
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
 }
-.o-MQd {
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -webkit-flex-shrink: 1;
-    -ms-flex-negative: 1;
-    flex-shrink: 1;
-    margin-left: 12px;
-    overflow: hidden;
+
+.narrower_nav {
+    width: 975;
+    height: 60;
 }
-#react-root, article, div, footer, header, main, nav, section {
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    border: 0 solid #000;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+
+.main_area {
+    background-color: rgba(var(--b3f, 250, 250, 2 50), 1);
+    margin-top: 200px;
+}
+
+
+.post_area {
+    transform: translateY(-62px);
+    transition: transform .3s ease-out .2s, -webkit-transform .3s ease-out .2s;
+    float: left;
+    margin-right: 28px;
+    max-width: 614px;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 0;
+    position: relative;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-}
-#react-root, article, div, footer, header, main, nav, section {
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
     align-items: stretch;
     border: 0 solid #000;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    margin: 0;
+    -webkit-box-align: stretch;
+    left: 200px;
+
+}
+
+.post_article {
+    margin-bottom: 24px;
+    max-height: inherit;
     padding: 0;
-    position: relative;
+    border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    border-radius: 3px;
+    margin-left: -1px;
+    margin-right: -1px;
+    background-color: rgba(var(--d87, 255, 255, 255), 1);
 }
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-    margin: 0;
+
+.footer_area {
+    left: 758px;
+    top: calc(34px + var(--desktop-nav-height));
+    position: fixed;
+    height: 100vh;
+    margin-bottom: 30px;
     padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
+    max-width: 293px;
+    right: 0;
+    width: 100%;
 }
-사용자 에이전트 스타일시트
-div {
-    display: block;
+
+.img_posted {
+    width: 614px;
+    height: 614px;
 }
-.Ppjfr {
+
+.article_header {
     -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
-    -webkit-flex-shrink: 1;
-    -ms-flex-negative: 1;
     flex-shrink: 1;
     max-width: calc(100% - 48px);
     padding: 14px 4px 14px 16px;
-}
-.ybXk5 {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-}
-.acqo5 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-.AIDOf {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+    border: 0 solid #000;
+    box-sizing: border-box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row nowrap;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    max-width: 935px;
-}
-._9eogI {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-}
-body, button, input, textarea {
-    color: #262626;
-    color: rgba(var(--i1d,38,38,38),1);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-}
-body {
-    line-height: 1;
-}
-body, button, input, textarea {
-    color: #262626;
-    color: rgba(var(--i1d,38,38,38),1);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-}
-body {
-    line-height: 1;
-}
-style 특성 {
-    --desktop-nav-height: 60px;
-    --in-feed-story-item-padding: 14px;
-}
-.sDN5V {
-    --i1d: 38,38,38;
-    --edc: 199,199,199;
-    --f75: 38,38,38;
-    --fe0: 0,55,107;
-    --d87: 255,255,255;
-    --b3f: 250,250,250;
-    --bb2: 239,239,239;
-    --f23: 255,255,255;
-    --b38: 219,219,219;
-    --b6a: 219,219,219;
-    --ca6: 219,219,219;
-    --cdd: 38,38,38;
-    --e22: 199,199,199;
-    --e62: 245,251,255;
-    --b2f: 88,195,34;
-    --c8c: 168,168,168;
-    --ce3: 239,239,239;
-    --jd9: 0,0,0;
-    --j64: 54,54,54;
-    --a97: 243,243,243;
-    --d20: 38,38,38;
-}
-.ekjoN, .sDN5V {
-    --f52: 142,142,142;
-    --h1d: 255,255,255;
-    --de5: 255,255,255;
-    --d69: 0,149,246;
-    --b86: 88,195,34;
-    --i30: 237,73,86;
-    --d62: 255,255,255;
-    --e4f: 54,54,54;
-    --a72: 255,255,255;
-    --ie3: 142,142,142;
-    --c37: 237,73,86;
-    --f24: 0,149,246;
-    --daf: 255,1,105;
-    --f76: 28,209,79;
-    --jbb: 53,121,234;
-    --aab: 118,56,250;
-    --eca: 255,255,255;
-    --jb7: 0,0,0;
-    --fa7: 224,241,255;
-    --aa6: 38,38,38;
-    --ba8: 168,168,168;
-    --eac: 237,73,86;
+    margin: 0;
+    position: relative;
 }
 
-._4EzTm {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
+.canvas_icon {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 42px;
+    height: 42px;
 }
-.CcYR1 {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+
+.icon_img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
 }
-.ybXk5 {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-}
-.rBNOH {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.Igw0E {
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-}
-.qF0y9 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-}
-#react-root, article, div, footer, header, main, nav, section {
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    border: 0 solid #000;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-}
-#react-root, article, div, footer, header, main, nav, section {
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    border: 0 solid #000;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-}
-사용자 에이전트 스타일시트
-div {
-    display: block;
-}
-.acqo5 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-._9eogI {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-}
-body, button, input, textarea {
-    color: #262626;
-    color: rgba(var(--i1d,38,38,38),1);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-}
-body {
-    line-height: 1;
-}
-body, button, input, textarea {
-    color: #262626;
-    color: rgba(var(--i1d,38,38,38),1);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-}
-body {
-    line-height: 1;
-}
-style 특성 {
-    --desktop-nav-height: 60px;
-    --in-feed-story-item-padding: 14px;
-}
-.sDN5V {
-    --i1d: 38,38,38;
-    --edc: 199,199,199;
-    --f75: 38,38,38;
-    --fe0: 0,55,107;
-    --d87: 255,255,255;
-    --b3f: 250,250,250;
-    --bb2: 239,239,239;
-    --f23: 255,255,255;
-    --b38: 219,219,219;
-    --b6a: 219,219,219;
-    --ca6: 219,219,219;
-    --cdd: 38,38,38;
-    --e22: 199,199,199;
-    --e62: 245,251,255;
-    --b2f: 88,195,34;
-    --c8c: 168,168,168;
-    --ce3: 239,239,239;
-    --jd9: 0,0,0;
-    --j64: 54,54,54;
-    --a97: 243,243,243;
-    --d20: 38,38,38;
+#navnav {
+    display: grid;
 }
