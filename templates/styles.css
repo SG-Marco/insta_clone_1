@@ -308,8 +308,8 @@ padding-left: 16px;
     min-height: 0;
     align-items: stretch;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+    display: inline-block!important;
+    /*flex-direction: column;*/
     position: relative;
     vertical-align: baseline;
 }
@@ -339,25 +339,18 @@ padding-left: 16px;
     margin-left: -8px;
     vertical-align: baseline;
     pointer-events: auto;
+    width: 40px;
+    height: 40px;
 }
 
-#like_icon button {
-    align-items: center;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-    position: relative;
-    pointer-events: auto;
-
-}
 
 #reply_icon {
         display: inline-block;
     vertical-align: baseline;
     pointer-events: auto;
+        width: 40px;
+    height: 40px;
+
 }
 
 .icon_button {
@@ -377,6 +370,9 @@ padding-left: 16px;
     display: inline-block;
     vertical-align: baseline;
     pointer-events: auto;
+        width: 40px;
+    height: 40px;
+
 }
 
 #tag_icon {
@@ -385,6 +381,9 @@ padding-left: 16px;
     display: inline-block;
     vertical-align: baseline;
     pointer-events: auto;
+        width: 40px;
+    height: 40px;
+
 }
 #tag_icon div {
     align-items: stretch;
@@ -400,7 +399,7 @@ padding-left: 16px;
 .like_text {
     padding-left: 16px;
     padding-right: 16px;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-bottom: 8px;
     align-items: stretch;
     box-sizing: border-box;
@@ -448,6 +447,14 @@ position: relative;
 position: relative;
 
 }
+
+.post_text_reply_inner {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block!important;
+    border: 3px solid black
+}
+
 
 
 
