@@ -74,7 +74,6 @@ nav > div {
     flex-direction: column;
     position: relative;
     align-items: flex-start;
-    border: 3px solid greenyellow;
 }
 .profile_id div {
     text-align: left;
@@ -85,21 +84,15 @@ main {
     background-color: rgba(var(--b3f, 250, 250, 250), 1);
     display: flex;
     width: 100%;
-    border: 3px solid red;
     margin-top: 60px;
 }
 
-.card {
-    border: 2px solid blue;
-
-}
 
 .main_container {
     display: flex;
     width: 100%;
     /*margin-top: 60px;*/
     padding: 30px;
-        border: 3px solid maroon;
 
 }
 
@@ -112,6 +105,7 @@ main {
     align-items: stretch;
     flex-direction: column;
     justify-content: flex-start;
+border: 1px solid #dbdbdb;
 }
 
 .carousel-img {
@@ -128,7 +122,6 @@ main {
 }
 
 .post_area {
-            border: 2px solid green;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -180,13 +173,13 @@ footer {
     margin-bottom: 30px;
     position: fixed;
     /*left: 744px;*/
-    border: 2px solid darkorchid;
     /*position: sticky;*/
     box-sizing: border-box;
     left: 54%;
     transform: translateX(43%);
     /*top: calc(34px + var(--desktop-nav-height));*/
     padding-top: 20px;
+    border: 1px solid plum;
 
 }
 
@@ -209,7 +202,6 @@ header {
     align-content: stretch;
     display: flex;
     position: relative;
-    border: 3px solid red;
 }
 
 .card_tltle header {
@@ -220,7 +212,6 @@ header {
     padding: 14px 4px 14px 16px;
     display: flex;
     position: relative;
-        border: 3px solid blue;
 
 }
 
@@ -262,7 +253,7 @@ header {
     vertical-align: baseline;
 }
 
-.card-body div {
+.card-body>div {
     min-width: 335px;
     width: 100%;
     align-items: stretch;
@@ -452,9 +443,49 @@ position: relative;
     margin-left: 15px;
     margin-right: 15px;
     display: inline-block!important;
-    border: 3px solid black
 }
 
+.id_id {
+    font-weight: 600;
+}
+
+.see_more {
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+.reply_input {
+    margin-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+border-top: 1px solid #dbdbdb;
+flex-direction: row;
+    border: 3px solid orange;
+
+}
+
+#smile_icon {
+border: 3px solid red;
+
+}
+
+.reply_textarea {
+    resize: none;
+    border: 3px solid blue;
+
+}
+
+#post_button {
+    display: block;
+    color: rgba(var(--d69,0,149,246),1);
+    opacity: .3;
+    pointer-events: none;
+    appearance: none;
+    font-weight: 600;
+    text-align: center;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+border: 3px solid black;
 
 
-
+}
