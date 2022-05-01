@@ -148,7 +148,6 @@ vertical-align: baseline;
     position: relative;
     width: 100%;
     max-width: 935px;
-    border: 2px solid orange;
     box-sizing: border-box;
     padding: 0;
 }
@@ -188,7 +187,7 @@ footer {
     width: 100%;
     height: 60px;
     position: fixed;
-    background-color:  lightskyblue;
+    background-color:  white;
     border-bottom: 1px solid gray;
     align-items: center;
     top: 0;
@@ -502,6 +501,3 @@ border: 3px solid red;
 
 }
 
-#test_test {
-    display: flex;
-}
