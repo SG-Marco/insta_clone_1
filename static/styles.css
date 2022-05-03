@@ -486,9 +486,9 @@ border: 3px solid red;
 }
 
 
-#post_button {
+.post_button_111 {
     display: block;
-    color: rgba(var(--d69,0,149,246),1);
+    color: rgba(var(--d69, 0, 149, 246),1);
     opacity: .3;
     pointer-events: none;
     appearance: none;
@@ -497,9 +497,22 @@ border: 3px solid red;
     text-overflow: ellipsis;
     user-select: none;
     width: auto;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    all: unset;
+
 }
 
-.my-modal-bg{
+
+#post-btn-1{
+    cursor: pointer;
+}
+#aaaa{
+    cursor: pointer;
+}
+
+.my-modal-bg, #my-modal-bg{
     position: fixed;
     top: 0;
     left: 0;
@@ -507,22 +520,27 @@ border: 3px solid red;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.65);
     display: flex;
+    /*display: none;*/
     flex-direction: column;
     justify-content: space-around;
-    /*justify-content: center;*/
     align-items: center;
     z-index: 100;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s opacity0.5s;
+    /*visibility: hidden;*/
+    /*opacity: 0;*/
+    transition: visibility 0s, opacity 0.5s;
 }
 
 .bg-active{
     visibility: visible;
     opacity: 1;
+    /*display: flex;*/
 }
 
-.my-modal-case{
+.my-modal-active-btn{
+    cursor: pointer;
+}
+
+.my-modal-case, #my-modal-case{
     width: 260px;
     flex-shrink: 1;
     justify-content: center;
@@ -532,12 +550,12 @@ border: 3px solid red;
     position: relative;
 }
 @media (min-width: 736px) {
-    .my-modal-case {
+    .my-modal-case , #my-modal-case{
         width: 400px;
     }
 }
 
-.my-modal{
+.my-modal, #my-modal{
     background-color: rgba(255, 255, 255, 1);
 
     border-radius: 12px;
@@ -579,3 +597,7 @@ border-top: 1px solid rgba(var(--b6a,219,219,219),1);
     color: rgba(var(--i30,237,73,86),1);
     font-weight: 700;
 }
+
+/*#post_button{*/
+/*    cursor: pointer;*/
+/*}*/
